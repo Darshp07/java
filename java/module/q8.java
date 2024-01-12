@@ -6,6 +6,7 @@ public class q8 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+//		 int num2 =
 		
 		System.out.println("enter your number less than ten billion  :");
 		

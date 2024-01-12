@@ -24,5 +24,6 @@ public class q1 {
 		String result =  a>b ? a>c ? "A is greater":"C is greater" : b>c ? "B is greater":"C is greater" ;
 		
 		System.out.println(result);
+		sc.close();
   }
 }

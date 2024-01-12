@@ -1,5 +1,6 @@
 //
 //Write a Java program to print numbers between 1 to 100 which are divisible by 3, 5
+
 //and by both. 
 package module;
 
@@ -30,6 +31,7 @@ public class q10 {
 		 {
 			 System.out.println( i+": this num not is divisible by 3, 5 ");
 		 }
+		 sc.close();
 		 }
 	}
 }

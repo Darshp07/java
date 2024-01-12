@@ -11,23 +11,33 @@
 
 package module;
 import java.util.Scanner;
+
 public class q2 {
 
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
 		
-		char ch;
 		
-		System.out.println(" enter your latter:");
-		 ch = sc.next().charAt(0);
-		
+		System.out.print("Enter a single character from the alphabet: ");
+        String input = sc.nextLine();
+		 
+	 
+        if (input.length() == 1) {
+          
+       	char ch = input.charAt(0);
 		if( ch == 'A'|| ch == 'E' || ch == 'I'|| ch == 'O'|| ch == 'U' || ch == 'a' ||ch == 'e' ||ch == 'i'||ch == 'o'||ch == 'u' ) {
 			
 			System.out.println("vowle");
 		}else  {
 			System.out.println("Consonant");
 		}
+		}
+		else {
+            System.out.println("Error: Please enter a single alphabet character.");
+        } 
+        sc.close();
 	} 
 
 }

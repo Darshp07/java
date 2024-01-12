@@ -14,12 +14,12 @@ import java.util.Scanner;
 public class q7 {
 	
 	public static void main(String[] args) {
-		int n = 4;
+		int n = 7;
 		  int num = 1;
 	        for (int i = 1; i <= n; i++) {
 	             
 	            for (int j = 1; j <= i; j++) {
-	                System.out.print(num+" ");
+	                System.out.print(num+"  ");
 	                num++;
 	            }
 	            System.out.println();

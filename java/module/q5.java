@@ -16,12 +16,13 @@ public class q5 {
 		 for(int i =1 ; i<=5; i++) {
 			 System.out.println("enter your digit "+i);
 			 num = sc.nextInt();
-			 sum =sum +num;
+			 sum =+num;
 			 
 	}
 		 
 		 System.out.println("Sum of the numbers is: " + sum);
 		 double aveg = sum/5;
 		 System.out.println("aveg of the numbers is: " + aveg);
+		 sc.close();
 }
 }
