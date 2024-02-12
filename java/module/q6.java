@@ -1,5 +1,5 @@
 
-//• Write a program in Java to display the pattern like right angle triangle with a number 
+//• Write a program in Java to display the pattern like right angle triangle with a number  
 //1
 //12
 //123
@@ -16,7 +16,8 @@ public class q6 {
 		int n = 5; 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(j+" ");
+                System.out.print(j+"  ");
+                
                 
             }
             

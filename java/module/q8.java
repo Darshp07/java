@@ -6,12 +6,11 @@ public class q8 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-//		 int num2 =
 		
 		System.out.println("enter your number less than ten billion  :");
 		
 		long num = sc.nextLong();
-		int count =1;
+		int count =0;
 		while(num>9) {
 			num=num/10;
 			System.out.println(num);

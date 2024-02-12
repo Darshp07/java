@@ -1,7 +1,7 @@
 
 
 //
-//Write a program in Java to make such a pattern like right angle triangle with number 
+//Write a program in Java to make such a pattern like right angle triangle with number  
 //increased by 1 The pattern like:
 //1
 //2 3

@@ -22,5 +22,6 @@ public static void main(String[] args) {
 	 }else {
 		 System.out.println("your year is not leap year ");
 	 }
+	 sc.close();
 }
 }

@@ -4,10 +4,10 @@
 package module;
 
 public class q18 {
-public static void main(String[] args) {
-	
-	String str1="WX YZ";
-	
-	System.out.println("the interlevine string are :"+str1.intern());
-}
+	public static void main(String[] args) {
+
+		String str1 = "WX YZ";
+
+		System.out.println("the interlevine string are :" + str1.intern());
+	}
 }

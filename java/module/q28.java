@@ -11,7 +11,7 @@ abstract class Parents {
 
 class FirstSubclass extends Parents {
 	void massage() {
-		System.out.println("this is first subclass \n");
+		System.out.println("this is first subclass ");
 	}
 
 }

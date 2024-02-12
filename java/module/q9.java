@@ -17,6 +17,7 @@ public class q9 {
 		System.out.println("enter your letter:");
 		
 		  char letter = sc.next().charAt(0);
+
 		  int ASCII = letter;
 		
 		System.out.println("your ASCII value is :"+ ASCII);
