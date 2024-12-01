@@ -19,7 +19,7 @@ public class convert {
 		
 		HashSet<Integer> h = new HashSet<>(n);
 		
-		System.out.println(n);
+		System.out.println(h);
 		
 		LinkedHashSet<Integer> l = new LinkedHashSet<>(n);
 		
